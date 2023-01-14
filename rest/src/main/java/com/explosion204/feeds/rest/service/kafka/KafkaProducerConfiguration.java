@@ -1,4 +1,4 @@
-package com.explosion204.feeds.data.kafka;
+package com.explosion204.feeds.rest.service.kafka;
 
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.UUIDSerializer;

@@ -4,6 +4,7 @@ import com.explosion204.feeds.data.kafka.events.CommentsAmountChangedEvent;
 import com.explosion204.feeds.data.model.Comment;
 import com.explosion204.feeds.data.repository.CommentRepository;
 import com.explosion204.feeds.rest.exception.EntityNotFoundException;
+import com.explosion204.feeds.rest.service.kafka.KafkaService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;

@@ -1,4 +1,4 @@
-package com.explosion204.feeds.rest.service;
+package com.explosion204.feeds.rest.service.kafka;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

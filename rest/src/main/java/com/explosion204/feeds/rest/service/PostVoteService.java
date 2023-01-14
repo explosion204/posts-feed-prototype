@@ -7,6 +7,7 @@ import com.explosion204.feeds.data.model.PostVote;
 import com.explosion204.feeds.data.repository.PostVoteRepository;
 import com.explosion204.feeds.rest.exception.EntityAlreadyExistsException;
 import com.explosion204.feeds.rest.exception.EntityNotFoundException;
+import com.explosion204.feeds.rest.service.kafka.KafkaService;
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang3.tuple.Pair;
 import org.springframework.stereotype.Service;
